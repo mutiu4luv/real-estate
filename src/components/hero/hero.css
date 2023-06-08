@@ -1,0 +1,93 @@
+.hero{
+    background-image: url("../../../public/assests/pexels-photo-534151.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+.hero .container{
+    padding-top: 15%;
+}
+.hero h1{
+    color: #fff;
+    font-size: 60px;
+
+}
+.hero p{
+    color: #fff;
+    opacity: 0.8;
+}
+form{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+form input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+form span{
+    font-size: 14px;
+    color: grey;
+}
+input ::placeholder{
+    font-size: 17px;
+    color: #000;
+}
+form .box{
+    padding: 15px;
+        border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+form .box:nth-child(1)  {
+border-left: none;
+}
+form h4{
+    font-weight:500 ;
+}
+
+.heading{
+    text-align: center;width: 60%;
+    margin: auto;
+}
+.heading h1{
+    /* color: #2f3954; */
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.heading p{
+    color: #72809d;
+        color:black;
+}
+textarea, input{
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+@media screen and (max-width:768px) {
+    .hero .container{
+        padding-top: 30%;
+    }
+form{
+    display: flex;
+    flex-wrap: wrap;
+    border-left: none;
+}
+form .box{
+    border-left: none;
+
+}
+form input{
+    width :100%
+}
+
+}
