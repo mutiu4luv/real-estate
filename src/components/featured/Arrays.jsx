@@ -113,3 +113,77 @@ export const awards = [
     award: "ICA Green Award",
   },
 ];
+
+export const locations = [
+  {
+    image: "./assests/imo.jpeg",
+    name: "Akachi Owerri Imo State",
+    office: "121 Akachi road",
+  },
+
+  {
+    image: "./assests/lagos.jpeg",
+    name: "Lagos State",
+    office: "12 ojota street",
+  },
+  {
+    image: "./assests/rivers.jpeg",
+    name: "Rivers State Pleasure Park",
+    office: "21A treasure park road ",
+  },
+  {
+    image: "./assests/enugu.jpeg",
+    name: "Enugu State",
+    office: " 43 New Heaven Rd ",
+  },
+  {
+    image: "./assests/delta.jpeg",
+    name: "Delta State",
+    office: "121 Asaba road",
+  },
+  {
+    image: "./assests/abuja.jpeg",
+    name: "Abuja FCT",
+    office: "121 Kubwa Road",
+  },
+];
+
+export const teams = [
+  {
+    image: "./assests/mutiu.jpg",
+    list: 60,
+    office: "121 Akachi road",
+    name: "Engr Madu Chibueze Mutiu",
+  },
+
+  {
+    image: "./assests/urch.jpg",
+    list: 60,
+    office: "12 ojota street",
+    name: "Nwaiwu Uchechi",
+  },
+  {
+    image: "./assests/malaika.jpeg",
+    list: 75,
+    office: "21A treasure park road ",
+    name: "Egonu Ikechukwu Innocent",
+  },
+  {
+    image: "./assests/enugu.jpeg",
+    list: 85,
+    office: " 43 New Heaven Rd ",
+    name: "obi uche",
+  },
+  {
+    image: "./assests/delta.jpeg",
+    list: 60,
+    office: "121 Asaba road",
+    name: "obi uche",
+  },
+  {
+    image: "./assests/abuja.jpeg",
+    list: 950,
+    office: "121 Kubwa Road",
+    name: "obi uche",
+  },
+];
