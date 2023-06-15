@@ -59,6 +59,9 @@ header h4{
 
 
 }
+header .toggle{
+    display: none;
+}
 
 @media screen and (max-width :768px) {
    header{

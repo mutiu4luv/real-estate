@@ -3,6 +3,7 @@ import Award from "../award/Award";
 import Featured from "../featured/Featured";
 import Hero from "../hero/Hero";
 import Location from "../location/Location";
+import Footer from "../footer/Footer";
 import Recent from "../recent/Recent";
 import Team from "../team/Team";
 

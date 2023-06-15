@@ -40,7 +40,7 @@ const RecentCard = () => {
                     className="btn2"
                     style={{
                       color: "white",
-                      backgroundColor: "green",
+                      backgroundColor: " #27ae60",
                       height: "39px",
                       borderRadius: "50px",
                       fontSize: "20px",

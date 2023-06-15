@@ -30,9 +30,9 @@ const Header = () => {
               <li>
                 <Link to="/blog">Blog</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/pricing">Pricing</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact">Contact</Link>
               </li>

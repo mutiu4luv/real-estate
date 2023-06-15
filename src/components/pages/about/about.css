@@ -1,0 +1,32 @@
+.about .btn2{
+    padding: 13px;
+    font-size: larger;
+        font-weight: 600;
+        background-color: #27ae60;
+        border: none;
+        border-radius: 50px;
+}
+.about{
+    margin-bottom: 80px;
+}
+
+.about .heading{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.about p{
+    font-style: 15px;
+    padding-right: 15px;margin-bottom: 20px;
+    line-height: 30px;
+}
+
+@media  screen and (max-width:764px) {
+    .about .container{
+        flex-direction: column;
+    }
+    .about p{
+        padding: 0;
+       
+    }
+}

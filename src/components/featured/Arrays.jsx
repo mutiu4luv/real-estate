@@ -187,3 +187,33 @@ export const teams = [
     name: "obi uche",
   },
 ];
+
+export const footer = [
+  {
+    title: "LAYOUTS",
+    subtitle: [
+      "Home Page",
+      "About Page",
+      "Service Page",
+      "Property Page",
+      "contact Page",
+      "Single Blog",
+    ],
+  },
+
+  {
+    title: "ALL SECTIONS",
+    subtitle: [
+      "Headers",
+      "Features",
+      "Attractive",
+      "Testimonies",
+      "Videos",
+      "Footers",
+    ],
+  },
+  {
+    title: "COMPANY",
+    subtitle: ["About", "Blog", "Pricing", "Affiliate", "Login", "Changelog"],
+  },
+];
