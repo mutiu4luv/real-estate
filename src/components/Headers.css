@@ -66,6 +66,7 @@ header .toggle{
 @media screen and (max-width :768px) {
    header{
     padding: 0;
+    width: 100%;
    } 
    header img{
     margin-top: 39px;
@@ -123,4 +124,72 @@ header .small{
     padding: 20px;
 }
 
+}
+@media screen and (min-width:768) {
+    header {
+        padding: 0;
+    }
+
+    header img {
+        margin-top: 30px;
+
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .nav .flex {
+        display: none;
+    }
+
+    header .toggle {
+        display: block;
+        margin-top: 20px;
+    }
+
+    header .small {
+        position: absolute;
+        top: 15vh;
+        left: 0;
+        width: 100%;
+        background-color: #27ae60;
+        padding: 20px;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 767px) and (orientation: landscape) {
+
+    /* CSS rules specific to Android phones in portrait mode */
+    header .nav {
+        height: 50px;
+            width: 50px;
+    }
+}
+
+
+@media only screen and (min-device-width: 767px) and (orientation: portrait) {
+
+    /* CSS rules specific to Android phones in portrait mode */
+    header .logo {
+height: 50px;        width: 50px;
+    }
+}
+@media only screen and (max-device-width: 767px) and (orientation: portrait) {
+
+    /* CSS rules specific to Android phones in portrait mode */
+    header .logo {
+        height: 50px;
+        width: 50px;
+    }
+}
+@media only screen and (max-device-width: 767px) and (orientation: landscape) {
+
+    /* CSS rules specific to Android phones in portrait mode */
+    header .nav {
+        height: 50px;
+        width: 50px;
+    }
 }

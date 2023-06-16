@@ -5,10 +5,52 @@
     padding: 30px;
 cursor: pointer;
 
+
 }
 
 .featured img{
     width: 65PX;
     height: 65PX;
     margin: auto;
+}
+/* 
+@media screen and (max-width:768px) {
+.feat {
+display: block;
+   }
+}
+
+@media screen and (max-width:480px) {
+    .feat {
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .feat {
+        display: block;
+    }
+} */
+
+@media only screen and (max-device-width: 767px) and (orientation: landscape) {
+    /* CSS rules specific to Android phones in landscape mode */
+    .feat {
+            display: block;
+        }
+}
+
+@media only screen and (max-device-width: 767px) and (orientation: portrait) {
+    /* CSS rules specific to Android phones in portrait mode */
+    .feat {
+            display: block;
+            width: 100%;
+        }
+}
+
+@media only screen and (min-device-width: 767px) and (orientation: portrait) {
+
+    /* CSS rules specific to Android phones in portrait mode */
+    .feat {
+        display: block;
+        width: 100%;
+    }
 }

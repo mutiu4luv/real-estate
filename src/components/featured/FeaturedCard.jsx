@@ -4,7 +4,7 @@ import { productItems } from "./Arrays";
 
 const FeaturedCard = () => {
   return (
-    <div className="content grid5 mtop">
+    <div className="feat content grid5 mtop">
       {productItems.map((booking) => {
         return (
           <div className="box">
